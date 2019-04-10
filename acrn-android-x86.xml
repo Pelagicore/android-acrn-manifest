@@ -237,7 +237,7 @@
   <project path="device/luxoft" name="pelagicore/device-android-acrn" remote="github" revision="" />
   
   <!-- ACRN Stuff -->
-  <remove-project name="kernel/commmon" />
+  <remove-project name="kernel/common" />
   
   <project path="external/iahwcomposer" name="projectceladon/IA-Hardware-Composer" remote="github" revision="82c1e8b1ab49f5efd1b72c3c8a9464405c7c1b5e" />
   <project path="external/minigbm" name="intel/minigbm" remote="github" revision="09730d8a1bfabc20eceee18f7d2d324bd72e9e38" />  
