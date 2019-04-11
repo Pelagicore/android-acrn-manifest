@@ -234,7 +234,7 @@
   
   <remote  name="github" fetch="https://github.com/" />
   <!-- Luxoft device for ACRN -->
-  <project path="device/luxoft" name="pelagicore/device-android-acrn" remote="github" revision="" />
+  <project path="device/luxoft" name="pelagicore/device-android-acrn" remote="github" revision="7d3bc4dc2e5b4aa4b5dfe2868822811fb137d301" />
   
   <!-- ACRN Stuff -->
   <remove-project name="kernel/common" />
