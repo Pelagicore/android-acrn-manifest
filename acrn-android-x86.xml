@@ -243,7 +243,7 @@
   <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
   <project path="packages/apps/F-DroidPrivilegedExtension"
            name="privileged-extension.git" remote="fdroid"
-           revision="refs/tags/0.2.9" />
+           revision="refs/tags/0.2.8" />
   
   <!-- ACRN Stuff -->
   <remove-project name="kernel/common" />
