@@ -240,11 +240,13 @@
     <linkfile src="android-x86_64_defconfig" dest="android-x86_64_defconfig" />
   </project>
 
+  <project path="packages/apps/FDroid" name="pelagicore/android-fdroid" remote="github" revision="323a2bdb3733a190784a10181ad3d45efb09a654" />
+
   <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
   <project path="packages/apps/F-DroidPrivilegedExtension"
            name="privileged-extension.git" remote="fdroid"
            revision="refs/tags/0.2.8" />
-  
+
   <!-- ACRN Stuff -->
   <remove-project name="kernel/common" />
   
@@ -252,11 +254,4 @@
   <project path="external/minigbm" name="intel/minigbm" remote="github" revision="09730d8a1bfabc20eceee18f7d2d324bd72e9e38" />  
   <project path="kernel" name="projectceladon/device-androidia-kernel" remote="github" revision="979c983a916479b3488468991db08f05b32fda41" />
 
-  <!-- Open GAPPS -->
-  <remote name="opengapps" fetch="https://github.com/opengapps/"  />
-  <remote name="nezor" fetch="https://gitlab.nezorfla.me/opengapps/"  />
-  <!--project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" /-->
-  <!--project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="nezor" /-->
-  <!--project path="vendor/opengapps/sources/x86" name="x86" clone-depth="1" revision="master" remote="nezor" /-->
-  <!--project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="1" revision="master" remote="nezor" /-->
 </manifest>
